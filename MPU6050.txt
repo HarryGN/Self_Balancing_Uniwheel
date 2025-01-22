@@ -1,0 +1,31 @@
+#include <Wire.h>
+#include <MPU6050.h>
+
+MPU6050 mpu;
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin(21, 22);  // Initialize I²C with SDA on GPIO21 and SCL on GPIO22
+  mpu.initialize();
+  
+  if (mpu.testConnection()) {
+    Serial.println("MPU6050 connected successfully!");
+  } else {
+    Serial.println("MPU6050 connection failed!");
+  }
+}
+
+void loop() {
+  // Read sensor data
+  int16_t ax, ay, az;
+  mpu.getAcceleration(&ax, &ay, &az);
+  
+  Serial.print("Acceleration X: ");
+  Serial.print(ax);
+  Serial.print(" Y: ");
+  Serial.print(ay);
+  Serial.print(" Z: ");
+  Serial.println(az);
+  
+  delay(100);
+}
