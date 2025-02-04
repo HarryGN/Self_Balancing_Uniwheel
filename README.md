@@ -27,7 +27,7 @@ The uniwheel system uses feedback from the MPU6050 IMU sensor to maintain balanc
 - The **ESP32** processes the sensor data and sends commands to the **driver board** to adjust the motor speeds.
 - The **BLDC motors** adjust the uniwheel's speed and direction to maintain balance.
 
-## Images
+## Images (updated version of PCB design)
 
 Here are some images of the project setup:
 
