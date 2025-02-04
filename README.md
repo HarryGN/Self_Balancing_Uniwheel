@@ -31,10 +31,11 @@ The uniwheel system uses feedback from the MPU6050 IMU sensor to maintain balanc
 
 Here are some images of the project setup:
 
-![Uniwheel Setup](https://github.com/user-attachments/assets/63501c74-0296-4fa6-9d12-41ae8d6e8e9d)
+![image](https://github.com/user-attachments/assets/50d831b7-9190-42cc-bdff-9141f2ac6741)
 
-![Driver Board](![image](https://github.com/user-attachments/assets/c03ea8f0-fd89-4aff-a6a2-65bbebb49b3a)
-)
+
+![image](https://github.com/user-attachments/assets/a6314093-7960-4627-9155-2aa1d780217f)
+
 
 ## Getting Started
 
