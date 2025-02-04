@@ -33,7 +33,8 @@ Here are some images of the project setup:
 
 ![Uniwheel Setup](https://github.com/user-attachments/assets/63501c74-0296-4fa6-9d12-41ae8d6e8e9d)
 
-![Driver Board](https://github.com/user-attachments/assets/2bdda0ba-70a3-4442-abec-d788c561cff9)
+![Driver Board](![image](https://github.com/user-attachments/assets/c03ea8f0-fd89-4aff-a6a2-65bbebb49b3a)
+)
 
 ## Getting Started
 
